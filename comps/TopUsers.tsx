@@ -2,7 +2,7 @@ import { NextPage } from 'next'
 import Link from 'next/link'
 import React from 'react'
 import { serverResponse } from '../pages/users/[id]'
-import styles from '../styles/USers.module.css'
+import styles from '../styles/Users.module.css'
 
 const TopUsers: NextPage<{ users: serverResponse[] }> = ({ users }) => {
   return (
